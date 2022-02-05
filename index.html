@@ -1,50 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>tip-calculator-app</title>
-</head>
-<body>
-  <h1>Spli<br>tter</h1>
-  <main class="main-component">
-    <form action="submit" class="bill">
-      <label for="bill">Bill</label>
-      <textarea name="bill" id="bill" cols="30" rows="1"></textarea>
-    </form>
-    <label for="select-tip">Select Tip %</label>
-    <form action="submit" class="select-tip">
-      <input type="radio" id="a5" name="amount">
-      <label for="a5">5%</label>
-      <input type="radio" id="a10" name="amount">
-      <label for="a5">10%</label>
-      <input type="radio" id="a15" name="amount">
-      <label for="a5">15%</label>
-      <input type="radio" id="a25" name="amount">
-      <label for="a5">25%</label>
-      <input type="radio" id="a50" name="amount">
-      <label for="a5">50%</label>
-      <input type="radio" id="custom" name="amount">
-      <label for="a5">custom</label>
-    </form>
-    <label for="number-of-people">Number of People</label>
-    <form action="submit" class="number-of-people">
-      <textarea name="number-of-people" id="number-of-people" cols="30" rows="1"></textarea>
-    </form>
-    <section class="tip">
-      <h2>Tip Amount</h2>
-      <p>/ person</p>
-      <p>$ <span id="tip-ammount"></span></p>
-    </section>
-    <section class="total">
-      <h2>Total</h2>
-      <p>/ person</p>
-      <p>$ <span id="total"></span></p>
-    </section>
-    <button>Reset</button>
-      
-
-  </main>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>tip-calculator-app</title>
+  </head>
+  <body class="tip-calculator">
+    <h1 class="tip-calculator__header">Spli<br />tter</h1>
+    <main>
+      <form action="submit" class="bill">
+        <label  class="small-text" for="bill">Bill</label>
+        <textarea name="bill" id="bill" cols="30" rows="1"></textarea>
+      </form>
+      <label for="select-tip">Select Tip %</label>
+      <form action="submit" class="select-tip">
+        <input type="radio" id="a5" name="amount" />
+        <label for="a5">5%</label>
+        <input type="radio" id="a10" name="amount" />
+        <label for="a10">10%</label>
+        <input type="radio" id="a15" name="amount" />
+        <label for="a15">15%</label>
+        <input type="radio" id="a25" name="amount" />
+        <label for="a25">25%</label>
+        <input type="radio" id="a50" name="amount" />
+        <label for="a50">50%</label>
+        <input type="radio" id="custom" name="amount" />
+        <label for="custom">custom</label>
+      </form>
+      <label  class="small-text" for="number-of-people"
+        >Number of People</label
+      >
+      <form action="submit" class="number-of-people">
+        <textarea
+          name="number-of-people"
+          id="number-of-people"
+          cols="30"
+          rows="1"
+        ></textarea>
+      </form>
+      <section>
+        <h2  class="small-text">Tip Amount</h2>
+        <p class="tiny-text">/ person</p>
+        <p class="dollar">$ <span id="tip-ammount">0.00</span></p>
+      </section>
+      <section class="total">
+        <h2 class="small-text">Total</h2>
+        <p class="tiny-text">/ person</p>
+        <p class="dollar">$ <span id="total">0.00</span></p>
+      </section>
+      <button>Reset</button>
+    </main>
+  </body>
 </html>

@@ -1,0 +1,6 @@
+//* convert 'pixel' to rems
+//* @param 'pixel' to be converted
+//* @return the rem value
+@function rem($pixel) {
+    @return ($pixel/16 * 1rem);
+  }
