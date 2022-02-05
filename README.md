@@ -24,4 +24,8 @@ This app can be used to calculate common tips for service. This app is a [Fronte
 
 
 ## Project Status
-In development.
+[x] Create Page
+[ ] Styling
+[ ] add functionality
+[ ] deploy
+[ ] a11y audit
