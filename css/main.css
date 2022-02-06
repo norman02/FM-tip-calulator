@@ -141,6 +141,31 @@ people that prefer not to see them */
 }
 
 /*------------------------------\
+    Components - Textarea 
+\------------------------------*/
+.textarea {
+  color: #00494d;
+  background-color: #f4fafa;
+  border: none;
+  display: block;
+  line-height: 2.25rem;
+  max-width: 19.4375rem;
+  padding: 0.375rem 1.1175rem;
+  resize: none;
+  text-align: right;
+  background-repeat: no-repeat;
+  background-position: center left 1.20375rem;
+}
+
+.textarea--bill {
+  background-image: url("../images/icon-dollar.svg");
+}
+
+.textarea--number {
+  background-image: url("../images/icon-person.svg");
+}
+
+/*------------------------------\
     Layouts - Background 
 \------------------------------*/
 /** 
@@ -214,8 +239,4 @@ people that prefer not to see them */
 /*------------------------------\
     Testing 
 \------------------------------*/
-textarea {
-  width: 19.4375rem;
-  resize: none;
-}
 /*# sourceMappingURL=main.css.map */

@@ -5,6 +5,7 @@
 @import "base/typography";
 
 @import "components/buttons";
+@import "components/textareas";
 
 @import "layouts/backgrounds";
 @import "layouts/main-component";
@@ -13,10 +14,5 @@
 /*------------------------------\
     Testing 
 \------------------------------*/
-textarea {
-  width: rem(311);
-  resize: none;
-}
-
 
 

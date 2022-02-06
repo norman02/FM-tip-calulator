@@ -1,0 +1,24 @@
+/*------------------------------\
+    Components - Textarea 
+\------------------------------*/
+.textarea {
+  color: $dark-txt-clr;
+  background-color: $txt-area-bg-clr;
+  border: none;
+  display: block;
+  line-height: rem(36);
+  max-width: rem(311);
+  padding: rem(6) rem(17.88);
+  resize: none;
+  text-align: right;
+  background-repeat: no-repeat;
+  background-position: center left rem(19.26);
+
+  &--bill {
+    background-image: url("../images/icon-dollar.svg");
+  }
+
+  &--number {
+    background-image: url("../images/icon-person.svg");
+  }
+}
