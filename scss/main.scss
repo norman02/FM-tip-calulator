@@ -9,6 +9,23 @@
 @import "layouts/backgrounds";
 @import "layouts/main-component";
 
+/*------------------------------\
+    Testing 
+\------------------------------*/
+textarea {
+  width: rem(311);
+  resize: none;
+}
 
+.results {
+  color: white;
+  background-color: $dark-bg-clr;
+  border-radius: 15px;
+  padding: rem(39) rem(22) rem(24) rem(24);
+
+  button {
+    margin-top: rem(34);
+  }
+}
 
 

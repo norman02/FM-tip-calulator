@@ -1,6 +1,6 @@
-/*------------------\
-    Normalize CSS   
-\------------------*/
+/*------------------------------\
+    Normalize CSS 
+\------------------------------*/
 /* Box sizing rules */
 *,
 *::before,
@@ -85,9 +85,9 @@ people that prefer not to see them */
   }
 }
 
-/*------------------\
+/*------------------------------\
     Typography
-\------------------*/
+\------------------------------*/
 .tip-calculator {
   font-family: "Space Mono", monospace;
   font-size: 1.5rem;
@@ -119,6 +119,12 @@ people that prefer not to see them */
   line-height: 2.25rem;
 }
 
+/*------------------------------\
+    Components - Buttons 
+\------------------------------*/
+/**
+* This is the standard button
+*/
 .btn {
   background-color: #26c0ab;
   border: none;
@@ -134,9 +140,9 @@ people that prefer not to see them */
   cursor: pointer;
 }
 
-/*------------------\
-    Background elem
-\------------------*/
+/*------------------------------\
+    Layouts - Background 
+\------------------------------*/
 /** 
 * In the mobile view the calculator component 
 * sits on top of a background element the logo
@@ -152,9 +158,9 @@ people that prefer not to see them */
   margin-top: 3.125rem;
 }
 
-/*------------------\
-    Main Component 
-\------------------*/
+/*------------------------------\
+    Layouts - Main Component 
+\------------------------------*/
 /** 
 * In mobile view the main component is an app that 
 * fills the full view width and is aligned at the 
@@ -175,5 +181,24 @@ people that prefer not to see them */
 .tip,
 .number-of-people {
   margin-bottom: 2rem;
+}
+
+/*------------------------------\
+    Testing 
+\------------------------------*/
+textarea {
+  width: 19.4375rem;
+  resize: none;
+}
+
+.results {
+  color: white;
+  background-color: #00494d;
+  border-radius: 15px;
+  padding: 2.4375rem 1.375rem 1.5rem 1.5rem;
+}
+
+.results button {
+  margin-top: 2.125rem;
 }
 /*# sourceMappingURL=main.css.map */
