@@ -15,7 +15,7 @@ An app for calculating tips created with Sass and a mobile first workflow.
 <!-- * [Contact](#contact) -->
 
 ## General info
-This app can be used to calculate common tips for service. This app is a [Frontend Mentor](https://frontendmentor.io) challenge project. My propose in creating this app is to practice git workflow, and code commenting. 
+This app can be used to calculate common tips for service. This app is a [Frontend Mentor](https://frontendmentor.io) challenge project. My propose in creating this app is to practice Sass and the 7-1 pattern. 
 
 ## Technologies
 + HTML 5
