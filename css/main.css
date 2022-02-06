@@ -184,21 +184,38 @@ people that prefer not to see them */
 }
 
 /*------------------------------\
-    Testing 
+    Layouts - Results 
 \------------------------------*/
-textarea {
-  width: 19.4375rem;
-  resize: none;
-}
-
+/**
+* This is the interactive portion of
+* the app. Results displays the tip 
+* amount per person and the total
+* per person.
+*/
 .results {
-  color: white;
+  color: #7f9c9f;
   background-color: #00494d;
   border-radius: 15px;
   padding: 2.4375rem 1.375rem 1.5rem 1.5rem;
 }
 
+.results h2 {
+  color: white;
+}
+
+.results .dollar {
+  color: #26c0ab;
+}
+
 .results button {
   margin-top: 2.125rem;
+}
+
+/*------------------------------\
+    Testing 
+\------------------------------*/
+textarea {
+  width: 19.4375rem;
+  resize: none;
 }
 /*# sourceMappingURL=main.css.map */

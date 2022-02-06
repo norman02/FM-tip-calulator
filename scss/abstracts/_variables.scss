@@ -1,7 +1,8 @@
 // ---- Color Pallette         ----
 $dark-green: hsla(183, 100%, 15%, 1);
-$grey-light-blue: hsla(185, 41%, 84%, 1);
 $green: hsla(172, 67%, 45%, 1);
+$grey-blue: hsla(184, 14%, 56%, 1);
+$grey-light-blue: hsla(185, 41%, 84%, 1);
 // ---- Background Colors      ----
 $btn-bg-color: $green;
 $component-bg-clr: white;
@@ -9,3 +10,6 @@ $dark-bg-clr: $dark-green;
 $main-bg-clr: $grey-light-blue;
 // ---- Text Colors            ----
 $dark-txt-clr: $dark-green;
+$highlight-txt: $green;
+$light-text: white;
+$med-txt-clr: $grey-blue;

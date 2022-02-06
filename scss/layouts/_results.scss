@@ -1,0 +1,27 @@
+/*------------------------------\
+    Layouts - Results 
+\------------------------------*/
+/**
+* This is the interactive portion of
+* the app. Results displays the tip 
+* amount per person and the total
+* per person.
+*/
+.results {
+  color: $med-txt-clr;
+  background-color: $dark-bg-clr;
+  border-radius: 15px;
+  padding: rem(39) rem(22) rem(24) rem(24);
+
+  h2 {
+    color: $light-text;
+  }
+
+  .dollar {
+    color: $highlight-txt;
+  }
+
+  button {
+    margin-top: rem(34);
+  }
+}
