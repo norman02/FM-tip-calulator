@@ -1,9 +1,17 @@
 // ---- Color Pallette         ----
-$grey-light-blue: hsla(185, 41%, 84%, 1);
 $dark-green: hsla(183, 100%, 15%, 1);
+$green: hsla(172, 67%, 45%, 1);
+$grey-blue: hsla(184, 14%, 56%, 1);
+$grey-light-blue: hsla(185, 41%, 84%, 1);
+$very-lt-blue: hsla(189, 41%, 97%, 1);
 // ---- Background Colors      ----
-$main-bg-clr: $grey-light-blue;
+$btn-bg-color: $green;
 $component-bg-clr: white;
 $dark-bg-clr: $dark-green;
+$main-bg-clr: $grey-light-blue;
+$txt-area-bg-clr: $very-lt-blue;
 // ---- Text Colors            ----
 $dark-txt-clr: $dark-green;
+$highlight-txt: $green;
+$light-text: white;
+$med-txt-clr: $grey-blue;

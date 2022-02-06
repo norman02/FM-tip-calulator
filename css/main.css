@@ -1,6 +1,6 @@
-/*------------------\
-    Normalize CSS   
-\------------------*/
+/*------------------------------\
+    Normalize CSS 
+\------------------------------*/
 /* Box sizing rules */
 *,
 *::before,
@@ -85,9 +85,9 @@ people that prefer not to see them */
   }
 }
 
-/*------------------\
+/*------------------------------\
     Typography
-\------------------*/
+\------------------------------*/
 .tip-calculator {
   font-family: "Space Mono", monospace;
   font-size: 1.5rem;
@@ -119,9 +119,55 @@ people that prefer not to see them */
   line-height: 2.25rem;
 }
 
-/*------------------\
-    Background elem
-\------------------*/
+/*------------------------------\
+    Components - Buttons 
+\------------------------------*/
+/**
+* This is the standard button
+*/
+.btn {
+  background-color: #26c0ab;
+  border: none;
+  border-radius: 5px;
+  color: #00494d;
+  display: block;
+  margin: auto;
+  padding: 11px;
+  width: 100%;
+}
+
+.btn:hover {
+  cursor: pointer;
+}
+
+/*------------------------------\
+    Components - Textarea 
+\------------------------------*/
+.textarea {
+  color: #00494d;
+  background-color: #f4fafa;
+  border: none;
+  display: block;
+  line-height: 2.25rem;
+  max-width: 19.4375rem;
+  padding: 0.375rem 1.1175rem;
+  resize: none;
+  text-align: right;
+  background-repeat: no-repeat;
+  background-position: center left 1.20375rem;
+}
+
+.textarea--bill {
+  background-image: url("../images/icon-dollar.svg");
+}
+
+.textarea--number {
+  background-image: url("../images/icon-person.svg");
+}
+
+/*------------------------------\
+    Layouts - Background 
+\------------------------------*/
 /** 
 * In the mobile view the calculator component 
 * sits on top of a background element the logo
@@ -137,9 +183,9 @@ people that prefer not to see them */
   margin-top: 3.125rem;
 }
 
-/*------------------\
-    Main Component 
-\------------------*/
+/*------------------------------\
+    Layouts - Main Component 
+\------------------------------*/
 /** 
 * In mobile view the main component is an app that 
 * fills the full view width and is aligned at the 
@@ -161,4 +207,36 @@ people that prefer not to see them */
 .number-of-people {
   margin-bottom: 2rem;
 }
+
+/*------------------------------\
+    Layouts - Results 
+\------------------------------*/
+/**
+* This is the interactive portion of
+* the app. Results displays the tip 
+* amount per person and the total
+* per person.
+*/
+.results {
+  color: #7f9c9f;
+  background-color: #00494d;
+  border-radius: 15px;
+  padding: 2.4375rem 1.375rem 1.5rem 1.5rem;
+}
+
+.results h2 {
+  color: white;
+}
+
+.results .dollar {
+  color: #26c0ab;
+}
+
+.results button {
+  margin-top: 2.125rem;
+}
+
+/*------------------------------\
+    Testing 
+\------------------------------*/
 /*# sourceMappingURL=main.css.map */
