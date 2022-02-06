@@ -1,8 +1,11 @@
 @import "abstracts/functions";
+@import "abstracts/variables";
 
 @import "base/reset.scss";
 @import "base/typography";
 
-/*------------------\
-    Testing 
-\------------------*/
+@import "layouts/backgrounds";
+@import "layouts/main-component";
+
+
+

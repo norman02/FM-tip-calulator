@@ -1,0 +1,23 @@
+/*------------------\
+    Main Component 
+\------------------*/
+/** 
+* In mobile view the main component is an app that 
+* fills the full view width and is aligned at the 
+* bottom of the screen. 
+*/
+.tip-calculator__main-component {
+  background: $component-bg-clr 0% 0% no-repeat padding-box;
+  background-color: $component-bg-clr;
+  border-radius: 25px 25px 0px 0px;
+  bottom: 0;
+  box-shadow: 0px 32px 43px hsla(186, 38%, 50%, 0.2);
+  color: $dark-txt-clr;
+  padding: rem(32);
+  position: relative;
+}
+.bill,
+.tip,
+.number-of-people {
+  margin-bottom: rem(32);
+}

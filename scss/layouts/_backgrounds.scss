@@ -1,0 +1,17 @@
+/*------------------\
+    Background elem
+\------------------*/
+/** 
+* In the mobile view the calculator component 
+* sits on top of a background element the logo
+* is centered in the background element.
+*/
+.tip-calculator {
+  background-color: $main-bg-clr;
+  height: 100vh;
+
+  &__header {
+    margin-bottom: rem(40.66);
+    margin-top: rem(50);
+  }
+}

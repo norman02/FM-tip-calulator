@@ -96,6 +96,7 @@ people that prefer not to see them */
 }
 
 .tip-calculator__header {
+  text-align: center;
   text-transform: uppercase;
 }
 
@@ -119,6 +120,45 @@ people that prefer not to see them */
 }
 
 /*------------------\
-    Testing 
+    Background elem
 \------------------*/
+/** 
+* In the mobile view the calculator component 
+* sits on top of a background element the logo
+* is centered in the background element.
+*/
+.tip-calculator {
+  background-color: #c5e4e7;
+  height: 100vh;
+}
+
+.tip-calculator__header {
+  margin-bottom: 2.54125rem;
+  margin-top: 3.125rem;
+}
+
+/*------------------\
+    Main Component 
+\------------------*/
+/** 
+* In mobile view the main component is an app that 
+* fills the full view width and is aligned at the 
+* bottom of the screen. 
+*/
+.tip-calculator__main-component {
+  background: white 0% 0% no-repeat padding-box;
+  background-color: white;
+  border-radius: 25px 25px 0px 0px;
+  bottom: 0;
+  box-shadow: 0px 32px 43px rgba(79, 166, 176, 0.2);
+  color: #00494d;
+  padding: 2rem;
+  position: relative;
+}
+
+.bill,
+.tip,
+.number-of-people {
+  margin-bottom: 2rem;
+}
 /*# sourceMappingURL=main.css.map */

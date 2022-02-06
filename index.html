@@ -15,12 +15,13 @@
   </head>
   <body class="tip-calculator">
     <h1 class="tip-calculator__header">Spli<br />tter</h1>
-    <main>
+    <main class="tip-calculator__main-component">
       <form action="submit" class="bill">
         <label  class="small-text" for="bill">Bill</label>
         <textarea name="bill" id="bill" cols="30" rows="1"></textarea>
       </form>
-      <label for="select-tip">Select Tip %</label>
+      <div class="tip">
+      <label class="small-text" for="select-tip">Select Tip %</label>
       <form action="submit" class="select-tip">
         <input type="radio" id="a5" name="amount" />
         <label for="a5">5%</label>
@@ -35,10 +36,12 @@
         <input type="radio" id="custom" name="amount" />
         <label for="custom">custom</label>
       </form>
+    </div>
+      <div class="number-of-people">
       <label  class="small-text" for="number-of-people"
         >Number of People</label
       >
-      <form action="submit" class="number-of-people">
+      <form action="submit">
         <textarea
           name="number-of-people"
           id="number-of-people"
@@ -46,6 +49,8 @@
           rows="1"
         ></textarea>
       </form>
+    </div>
+      <div class="results">
       <section>
         <h2  class="small-text">Tip Amount</h2>
         <p class="tiny-text">/ person</p>
@@ -56,7 +61,8 @@
         <p class="tiny-text">/ person</p>
         <p class="dollar">$ <span id="total">0.00</span></p>
       </section>
+    </section>
       <button>Reset</button>
-    </main>
+    </div>
   </body>
 </html>
