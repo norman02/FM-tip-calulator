@@ -96,6 +96,7 @@ people that prefer not to see them */
 }
 
 .tip-calculator__header {
+  text-align: center;
   text-transform: uppercase;
 }
 
@@ -118,7 +119,18 @@ people that prefer not to see them */
   line-height: 2.25rem;
 }
 
-/*------------------\
-    Testing 
-\------------------*/
+/** 
+* In the mobile view the calculator component 
+* sits on top of a background element the logo
+* is centered in the background element.
+*/
+.tip-calculator {
+  background-color: #c5e4e7;
+  height: 100vh;
+}
+
+.tip-calculator__header {
+  margin-bottom: 2.54125rem;
+  margin-top: 3.125rem;
+}
 /*# sourceMappingURL=main.css.map */
