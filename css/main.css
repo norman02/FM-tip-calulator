@@ -239,4 +239,53 @@ people that prefer not to see them */
 /*------------------------------\
     Testing 
 \------------------------------*/
+/*------------------------------\
+    Components - Tip Buttons
+\------------------------------*/
+.tip__options {
+  display: grid;
+  grid-template-rows: repeat(3 1fr);
+  grid-template-columns: 1fr 1fr;
+  row-gap: 1rem;
+  max-width: 20.4375rem;
+}
+
+.tip__options li {
+  position: relative;
+  width: 9.16437rem;
+  height: 3rem;
+  float: left;
+}
+
+.tip__options input,
+.tip__options label {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.tip__options input[type="radio"] {
+  opacity: 0.01;
+  z-index: 100;
+}
+
+.tip__options input[type="radio"]:checked + label {
+  background-color: yellow;
+}
+
+.tip__options label {
+  cursor: pointer;
+  background-color: #00494d;
+  color: white;
+  padding: 5px;
+  text-align: center;
+  z-index: 90;
+}
+
+.tip__options label:hover {
+  background-color: #ddd;
+}
 /*# sourceMappingURL=main.css.map */
