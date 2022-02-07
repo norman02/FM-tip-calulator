@@ -107,6 +107,14 @@ people that prefer not to see them */
   text-align: right;
 }
 
+@media only screen and (min-width: 800px) {
+  .tip-calculator .dollar {
+    font-size: 3rem;
+    line-height: 4.4375rem;
+    letter-spacing: -1px;
+  }
+}
+
 .tip-calculator .small-text {
   font-size: 1rem;
 }
@@ -296,6 +304,7 @@ people that prefer not to see them */
   background-color: #00494d;
   border-radius: 15px;
   padding: 2.4375rem 1.375rem 1.5rem 1.5rem;
+  max-width: 25.6875rem;
 }
 
 .results h2 {
@@ -309,8 +318,4 @@ people that prefer not to see them */
 .results button {
   margin-top: 2.125rem;
 }
-
-/*------------------------------\
-    Testing 
-\------------------------------*/
 /*# sourceMappingURL=main.css.map */
