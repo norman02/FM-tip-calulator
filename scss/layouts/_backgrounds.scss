@@ -11,7 +11,14 @@
   height: 100vh;
 
   &__header {
+    letter-spacing: rem(12);
+    line-height: rem(40);
     margin-bottom: rem(40.66);
     margin-top: rem(50);
+
+    @include media-lg {
+      margin-top: rem(163);
+      margin-bottom: rem(87.86);
+    }
   }
 }
