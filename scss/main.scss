@@ -15,4 +15,51 @@
     Testing 
 \------------------------------*/
 
+/*------------------------------\
+    Components - Tip Buttons
+\------------------------------*/
 
+.tip__options {
+  display: grid;
+  grid-template-rows: repeat(3 1fr);
+  grid-template-columns: 1fr 1fr;
+  row-gap: rem(16);
+  max-width: rem(327);
+  li {
+    position: relative;
+    width: rem(146.63);
+    height: rem(48);
+    float: left;
+  }
+  input,
+  label {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+  input[type="radio"] {
+    opacity: 0.01;
+    z-index: 100;
+  }
+  input[type="radio"]:checked + label {
+    background-color: yellow;
+  }
+  label {
+    cursor: pointer;
+    background-color: $dark-bg-clr;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    z-index: 90;
+
+    &:hover {
+      background-color: #ddd;
+    }
+  }
+}
+
+//https://stackoverflow.com/questions/16242980/making-radio-buttons-look-like-buttons-instead
+//https://stackoverflow.com/users/1968099/planttheidea
