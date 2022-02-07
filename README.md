@@ -25,12 +25,12 @@ This app can be used to calculate common tips for service. This app is a [Fronte
 
 
 ## Project Status
-[x] Create Page
-[ ] Styling
-[ ] Responsive design
-[ ] add functionality
-[ ] deploy
-[ ] a11y audit
+- [x] Create Page
+- [x] Mobile Layout
+- [ ] Responsive design
+- [ ] add functionality
+- [ ] deploy
+- [ ] a11y audit
 
 ## Acknowledgements
 - [PlantTheIdea](https://stackoverflow.com/users/1968099/planttheidea) for the [solution](https://stackoverflow.com/questions/16242980/making-radio-buttons-look-like-buttons-instead) for styling radio buttons as buttons. 
