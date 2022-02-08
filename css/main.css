@@ -141,6 +141,7 @@ people that prefer not to see them */
   display: block;
   margin: auto;
   padding: 11px;
+  text-transform: uppercase;
   width: 100%;
 }
 
@@ -358,5 +359,26 @@ people that prefer not to see them */
 
 .results button {
   margin-top: 2.125rem;
+}
+
+.results section {
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: 1fr 2fr;
+}
+
+.results section h2 {
+  grid-row: 1;
+}
+
+.results section p {
+  grid-row: 2;
+}
+
+.results section .dollar {
+  grid-column: 2/3;
+  grid-row: 1 / span 2;
+  line-height: 1;
 }
 /*# sourceMappingURL=main.css.map */
