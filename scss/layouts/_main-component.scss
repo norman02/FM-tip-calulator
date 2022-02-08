@@ -29,7 +29,7 @@
     grid-template-columns: 1fr 1fr;
     grid-template-areas: 'bill results' 'tip results' 'number results';
     column-gap: rem(48);
-    padding: rem(48);
+    padding-left: rem(48);
 
     .bill {
       grid-area: bill;

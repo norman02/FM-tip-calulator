@@ -165,8 +165,19 @@ people that prefer not to see them */
   grid-template-rows: repeat(3 1fr);
   grid-template-columns: 1fr 1fr;
   row-gap: 1rem;
+  column-gap: 0.875rem;
   max-width: 20.4375rem;
   /* [1] */
+}
+
+@media screen and (min-width: 1000px) {
+  .tip__options {
+    max-width: 2000px;
+    /* FIXME: hack */
+    max-width: auto;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
 }
 
 .tip__options li {
@@ -310,7 +321,7 @@ people that prefer not to see them */
     grid-template-columns: 1fr 1fr;
     grid-template-areas: 'bill results' 'tip results' 'number results';
     column-gap: 3rem;
-    padding: 3rem;
+    padding-left: 3rem;
   }
   .tip-calculator__main-component .bill {
     grid-area: bill;
@@ -347,6 +358,9 @@ people that prefer not to see them */
   border-radius: 15px;
   padding: 2.4375rem 1.375rem 1.5rem 1.5rem;
   max-width: 25.6875rem;
+  position: relative;
+  display: flex;
+  flex-direction: column;
 }
 
 .results h2 {
