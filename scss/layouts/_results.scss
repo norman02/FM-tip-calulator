@@ -28,6 +28,10 @@
 
   button {
     margin-top: rem(34);
+
+    @include media-lg {
+      margin-top: rem(122);
+    }
   }
 
   section {

@@ -251,6 +251,18 @@ people that prefer not to see them */
   background-position: center left 1.20375rem;
 }
 
+@media screen and (min-width: 600px) {
+  .textarea {
+    max-width: 25.6875rem;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .textarea {
+    max-width: 37.5rem;
+  }
+}
+
 .textarea--bill {
   background-image: url("../images/icon-dollar.svg");
 }
@@ -373,6 +385,12 @@ people that prefer not to see them */
 
 .results button {
   margin-top: 2.125rem;
+}
+
+@media screen and (min-width: 1000px) {
+  .results button {
+    margin-top: 7.625rem;
+  }
 }
 
 .results section {
