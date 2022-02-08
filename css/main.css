@@ -141,6 +141,7 @@ people that prefer not to see them */
   display: block;
   margin: auto;
   padding: 11px;
+  text-transform: uppercase;
   width: 100%;
 }
 
