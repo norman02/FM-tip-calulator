@@ -25,4 +25,25 @@
   button {
     margin-top: rem(34);
   }
+
+  section {
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr 2fr;
+    
+
+    h2 {
+      grid-row: 1;
+    }
+    p {
+      grid-row: 2;
+    }
+
+    .dollar {
+      grid-column: 2/3;
+      grid-row: 1 / span 2;
+      line-height: 1;
+    }
+  }
 }
