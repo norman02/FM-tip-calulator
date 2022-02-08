@@ -14,6 +14,14 @@
   background-repeat: no-repeat;
   background-position: center left rem(19.26);
 
+  @include media-md {
+    max-width: rem(411);
+  }
+
+  @include media-lg{
+    max-width: rem(600);
+  }
+
   &--bill {
     background-image: url("../images/icon-dollar.svg");
   }

@@ -13,6 +13,9 @@
   border-radius: 15px;
   padding: rem(39) rem(22) rem(24) rem(24);
   max-width: rem(411);
+  position: relative;
+  display: flex;
+  flex-direction: column;
 
   h2 {
     color: $light-text;
@@ -20,10 +23,15 @@
 
   .dollar {
     color: $highlight-txt;
+    
   }
 
   button {
     margin-top: rem(34);
+
+    @include media-lg {
+      margin-top: rem(122);
+    }
   }
 
   section {
@@ -32,7 +40,6 @@
     grid-template-columns: 1fr 2fr;
     grid-template-rows: 1fr 2fr;
     
-
     h2 {
       grid-row: 1;
     }
